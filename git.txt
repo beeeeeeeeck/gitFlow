@@ -12,7 +12,7 @@ all changes in workspace : git commit -m "Test Git flow"
 specified files : git commit git1.txt git2.txt -m "Test Git flow"
 
 4. commit change to remote repo directly
-all changes : git commit -a -m "Test Git flow"
+all changes : git commit -a -m "Test Git flow" ; git push ;
 equal to : git add . ; git commit . -m "Test Git flow" ; git push ;
 
 5. merge change to master branch from develop branch
@@ -50,7 +50,9 @@ for remote master to develop : git pull origin master
 for different branch : git fetch origin master:develop ; git diff develop ; git merge develop
 
 12. revert all local changes
-git checkout .
+revert all directly : git reset --hard
+revert the specified file : git reset [file]
+revert all and checkout from local repo : git checkout .
 
 13. show all changed files
 git status

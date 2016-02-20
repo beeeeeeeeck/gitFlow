@@ -11,8 +11,9 @@ current folder : git add .
 all changes in workspace : git commit -m "Test Git flow"
 specified files : git commit git1.txt git2.txt -m "Test Git flow"
 
-4. commit change to remote repo
+4. commit change to remote repo directly
 all changes : git commit -a -m "Test Git flow"
+equal to : git add . ; git commit . -m "Test Git flow" ; git push ;
 
 5. merge change to master branch from develop branch
 switch to master : git checkout master
@@ -50,3 +51,9 @@ for different branch : git fetch origin master:develop ; git diff develop ; git 
 
 12. revert all local changes
 git checkout .
+
+13. show all changed files
+git status
+
+14. simply show diff for the workspace
+git diff

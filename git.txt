@@ -17,3 +17,16 @@ all changes : git commit -a -m "Test Git flow"
 5. merge change to master branch from develop branch
 switch to master : git checkout master
 merge change : git merge develop
+
+6. list all branch
+all local branches : git branch
+all remote branches : git branch -r
+all local/remote branches : git branch -a 
+
+7. create the remote branch - develop as the upstream branch
+git checkout develop
+git push --set-upstream origin develop
+
+8. push change to remote branch
+git checkout develop
+git push

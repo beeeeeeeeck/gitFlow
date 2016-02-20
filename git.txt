@@ -1,0 +1,13 @@
+1. create the develop branch from master
+git checkout -b develop master
+
+2. add this file 
+1 file : git add git.txt
+2 files : git add git1.txt git2.txt
+a folder : git add folder_name
+current folder : git add .
+
+3. commit the change
+all changes in workspace : git commit -m "Test Git flow"
+specified files : git commit git1.txt git2.txt -m "Test Git flow"
+

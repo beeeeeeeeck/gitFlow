@@ -38,8 +38,12 @@ git config --global push.default simple
 10. merge develop into master and origin/master
 git checkout master
 git merge develop
+git push
 git push origin master
 
 11. merge remote branch into local branch
 git checkout master
 git pull origin develop
+
+12. revert all local changes
+git checkout .

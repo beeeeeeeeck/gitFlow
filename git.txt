@@ -1,7 +1,7 @@
 1. create the develop branch from master
 git checkout -b develop master
 
-2. add this file 
+2. add this file
 1 file : git add git.txt
 2 files : git add git1.txt git2.txt
 a folder : git add folder_name
@@ -21,7 +21,7 @@ merge change : git merge develop
 6. list all branch
 all local branches : git branch
 all remote branches : git branch -r
-all local/remote branches : git branch -a 
+all local/remote branches : git branch -a
 
 7. create the remote branch - develop as the upstream branch
 git checkout develop
@@ -38,4 +38,8 @@ git config --global push.default simple
 10. merge develop into master and origin/master
 git checkout master
 git merge develop
-git push origin master 
+git push origin master
+
+11. merge remote branch into local branch
+git checkout master
+git pull origin develop

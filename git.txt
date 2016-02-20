@@ -35,4 +35,7 @@ git push
 9. set push for current branch only
 git config --global push.default simple
 
-10. 
+10. merge develop into master and origin/master
+git checkout master
+git merge develop
+git push origin master 

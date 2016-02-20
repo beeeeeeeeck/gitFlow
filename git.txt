@@ -7,9 +7,13 @@ git checkout -b develop master
 a folder : git add folder_name
 current folder : git add .
 
-3. commit the change to local repo
+3. commit change to local repo
 all changes in workspace : git commit -m "Test Git flow"
 specified files : git commit git1.txt git2.txt -m "Test Git flow"
 
-4. commit the change to remote repo
-git commit -a
+4. commit change to remote repo
+all changes : git commit -a -m "Test Git flow"
+
+5. merge change to master branch from develop branch
+switch to master : git checkout master
+merge change : git merge develop

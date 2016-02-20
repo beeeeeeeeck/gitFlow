@@ -43,9 +43,9 @@ git push origin master
 
 11. merge remote branch into local branch
 git checkout master
-git pull origin develop
+git pull
 
-for the track branch : git fetch origin master:master
+for remote master to develop : git pull origin master
 for different branch : git fetch origin master:develop ; git diff develop ; git merge develop
 
 12. revert all local changes

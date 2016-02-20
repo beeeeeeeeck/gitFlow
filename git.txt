@@ -45,5 +45,8 @@ git push origin master
 git checkout master
 git pull origin develop
 
+for the track branch : git fetch origin master:master
+for different branch : git fetch origin master:develop ; git diff develop ; git merge develop
+
 12. revert all local changes
 git checkout .

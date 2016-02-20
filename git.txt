@@ -26,6 +26,7 @@ all local/remote branches : git branch -a
 7. create the remote branch - develop as the upstream branch
 git checkout develop
 git push --set-upstream origin develop
+git branch --set-upstream-to develop develop
 
 8. push change to remote branch
 git checkout develop

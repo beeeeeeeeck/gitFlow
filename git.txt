@@ -50,3 +50,9 @@ for different branch : git fetch origin master:develop ; git diff develop ; git 
 
 12. revert all local changes
 git checkout .
+
+13. show all changed files
+git status
+
+14. simply show diff for the workspace
+git diff

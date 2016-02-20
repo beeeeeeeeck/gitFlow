@@ -31,3 +31,8 @@ git branch --set-upstream-to develop develop
 8. push change to remote branch
 git checkout develop
 git push
+
+9. set push for current branch only
+git config --global push.default simple
+
+10. 

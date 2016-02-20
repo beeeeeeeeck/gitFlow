@@ -59,3 +59,10 @@ git status
 
 14. simply show diff for the workspace
 git diff
+
+15. create a feature branch
+create branch and then stay as before : git branch [branch]
+create branch and then switch to it : git checkout -b [branch]
+
+16. delete the branch
+git branch -d [branch]

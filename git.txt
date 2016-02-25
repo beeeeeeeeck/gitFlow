@@ -68,4 +68,4 @@ create branch and then switch to it : git checkout -b [branch]
 16. delete the branch
 git branch -d [branch]
 force delete : git branch -D [branch]
-delete remote branch : git push origin --delete [branchName]
+delete remote branch : git push origin --delete [branch] / git branch -r -d origin/[branch]

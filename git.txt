@@ -53,7 +53,7 @@ for different branch : git fetch origin master:develop ; git diff develop ; git 
 12. revert all local changes
 revert all directly : git reset --hard
 revert the specified file : git reset [file]
-revert all and checkout from local repo : git checkout .
+revert all and checkout from local repo : git checkout . / git checkout [file]
 
 13. show all changed files
 git status

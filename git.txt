@@ -69,3 +69,10 @@ create branch and then switch to it : git checkout -b [branch]
 git branch -d [branch]
 force delete : git branch -D [branch]
 delete remote branch : git push origin --delete [branch] / git branch -r -d origin/[branch]
+
+
+
+#######################
+1. start your work with the new branch
+git checkout -b feature/unifiedPremierAPI
+git push --set-upstream origin feature/unifiedPremierAPI

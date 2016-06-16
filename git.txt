@@ -76,3 +76,7 @@ delete remote branch : git push origin --delete [branch] / git branch -r -d orig
 1. start your work with the new branch
 git checkout -b feature/unifiedPremierAPI
 git push --set-upstream origin feature/unifiedPremierAPI
+
+#######################
+1. pull logs for a specified file with some key words
+git log -S <string> path/to/file
